@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssJG/style_JG.css">
+    <script src="skryptyJG/skrypty_JG.js"></script>
+    <title>Ptaki JG</title>
+</head>
+<body onload="startJG()">
+    <h1>Ptaki Gładykowskiego</h1>
+ <section id="baseSectionJG">
+    Wybór sekcji <br>
+    <button onclick="showHideJG(1)">Dodaj ptaka</button>
+    <button onclick="showHideJG(2), displayTableJG()">Zobacz ptaki</button>
+   
+   <button onclick="showHideJG(3)">Ilość ptaków</button>
+   <button onclick="showHideJG(4)">Modyfikuj ptaki</button>
+
+ </section>
+ <section id="dodajPtakaJG">
+    <br>
+    <br>
+    <select id="ptakiJG"></select>
+    <br>
+    <br>
+    <br>
+    Imie Ptaka: <input type="text" id="imiePtakaJG">
+    <br>
+    <br>
+    <button onclick="addBirdJG()">Dodaj ptaka</button>
+ </section>
+
+ <section id="pokazPtakiJG">
+    <table id="tabelaPtakowJG">
+        <tr>
+
+            <!--  <th>Nazwa</th>
+            <th>typ</th>
+            <th>Ilość skrzydel</th>
+            <th>dziub</th>
+            <th>imie</th>
+            <th>jedzenie</th>
+            <th>Skora</th>
+            <th>Przycisk</th>-->
+            
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+ </section>
+ <section id="parametryPtakowJG">
+    Parametry ptakow <br>
+    <table id="tabelaIlePtakowJG">
+        <tr>
+            <th>dzikiNielot</th>
+            <th>chodowlanyNielot</th>
+            <th>dzikiLatajacy</th>
+            <th>chodowlanyLatajacy</th>
+          
+        </tr>
+        <tr>
+
+        <td id="paramdzikinielot"></td>
+        <td id="paramchodowlanyNielot"></td>
+        <td id="paramdzikiLatajacy"></td>
+        <td id="paramchodowlanyLatajacy"></td>
+        
+
+    </table>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+     <table id="tabelaOgolnaPtakowJG">
+         <tr>
+             <th>Ogólna ilość ptaków</th>
+             <th>Ogólna ilość latajacych</th>
+             <th>Ogólna ilość nielotów</th>
+             <th>Ogólna ilość miesozercow</th>
+             <th>Ogólna ilość roslinozercow</th>
+             <th>Ogólna ilość skrzydel</th>
+         </tr>
+         <td id="paramptak"></td>
+         <td id="paramlatajacy"></td>
+         <td id="paramnielot"></td>
+         <td id="parammieso"></td>
+         <td id="paramroslino"></td>
+         <td id="paramskrzydel"></td>
+     </table>
+
+ </section>
+ <section id="modyfikujPtakiJG">
+     <br>
+    <select id="ptakMODIFYJG" onchange="updateMozliwosciJG()"></select>
+     <br>
+     <br>
+
+    <select id="mozliwosciRodzice" >
+        <option value="typ">typ</option>
+        <option value="iloscSkrzydel">iloscSkrzydel</option>
+        <option value="skora">skora</option>
+    </select>
+     <br><br>
+
+     <select id="mozliwosciDzieci" hidden="hidden">
+         <option value="typ">typ</option>
+         <option value="iloscSkrzydel">iloscSkrzydel</option>
+         <option value="skora">skora</option>
+         <option value="dziub">dziub</option>
+         <option value="jedzenie">jedzenie</option>
+         <option value="nazwa">nazwa</option>
+     </select>
+
+     <br>
+     <br>
+
+     Zmiana obecnej wartosci: <input type="text" id="zmienic">
+     <br>
+     <br>
+
+    <button onclick="modifyJG()">Zmien</button>
+
+ </section>
+
+<footer>&copy;Gładykowski 2023</footer>
+
+
+

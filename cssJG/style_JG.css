@@ -1,0 +1,114 @@
+body{
+    text-align: center;
+    font-style: italic;
+    }
+    h1{
+        color: green;
+    }
+    
+    #page_footer{
+    font-style: italic;
+    font-size: small;
+    }
+    
+    #tabelaPtakowJG {
+        overflow: auto;
+        width: 100%;
+    }
+    
+    #tabelaPtakowJG table {
+        border: 1px solid #dededf;
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border-spacing: 1px;
+        text-align: left;
+    }
+    
+    #tabelaPtakowJG caption {
+        caption-side: top;
+        text-align: left;
+    }
+    
+    #tabelaPtakowJG th {
+        border: 1px solid #dededf;
+        background-color: #eceff1;
+        color: #000000;
+        padding: 5px;
+    }
+    
+    #tabelaPtakowJG td {
+        border: 1px solid #dededf;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 5px;
+    }
+   
+    #tabelaIlePtakowJG {
+        overflow: auto;
+        width: 100%;
+    }
+    
+    #tabelaIlePtakowJG table {
+        border: 1px solid #dededf;
+        height: 100%;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border-spacing: 1px;
+        text-align: left;
+    }
+    
+    #tabelaIlePtakowJG caption {
+        caption-side: top;
+        text-align: left;
+    }
+    
+    #tabelaIlePtakowJG th {
+        border: 1px solid #dededf;
+        background-color: #eceff1;
+        color: #000000;
+        padding: 5px;
+    }
+    
+    #tabelaIlePtakowJG td {
+        border: 1px solid #dededf;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 5px;
+    }
+
+#tabelaOgolnaPtakowJG {
+    overflow: auto;
+    width: 100%;
+}
+
+#tabelaOgolnaPtakowJG table {
+    border: 1px solid #dededf;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+#tabelaOgolnaPtakowJG caption {
+    caption-side: top;
+    text-align: left;
+}
+
+#tabelaOgolnaPtakowJG th {
+    border: 1px solid #dededf;
+    background-color: #eceff1;
+    color: #000000;
+    padding: 5px;
+}
+
+#tabelaOgolnaPtakowJG td {
+    border: 1px solid #dededf;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+}
